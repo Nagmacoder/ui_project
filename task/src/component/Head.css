@@ -1,0 +1,30 @@
+#container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 130px;
+  background: #512275;
+  color: white;
+  height: 30px;
+}
+
+#headLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  font-weight: 500;
+  /* border: 2px solid black; */
+}
+#headRight {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: none;
+  padding-left: 20px;
+  font-size: larger;
+}

@@ -1,0 +1,55 @@
+#navContainer {
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 130px;
+  /* border-top: 8px solid white; */
+}
+
+img {
+  height: 75px;
+  /* width: 100px; */
+}
+
+#navLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 22%;
+  font-weight: 500;
+}
+#navRight {
+  display: flex;
+}
+
+.menu {
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 20px 0 0 20px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+.btn {
+  /* margin-left: 30px; */
+  font-size: medium;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 30px;
+  margin: 20px 0 0 20px;
+}
+#loginBtn {
+  width: 90px;
+  color: white;
+  background: rgb(44, 118, 221);
+}
+#signupBtn {
+  width: 100px;
+  border-color: lightgray;
+  background: lightgray;
+}

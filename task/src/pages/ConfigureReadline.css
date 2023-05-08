@@ -1,0 +1,33 @@
+#ConfigureReadineContainer {
+  height: 650px;
+  padding: 0 130px;
+}
+#cardContainer {
+  margin-top: 40px;
+  display: flex;
+}
+.card {
+  margin-left: 20px;
+  width: 23%;
+  height: 400px;
+  border-radius: 15px;
+  background: rgb(224, 211, 224);
+}
+
+.avatar {
+  height: 250px;
+  margin-bottom: -20px;
+}
+.paraBox {
+  text-align: left;
+  padding: 0 20px;
+}
+.paraHead {
+  width: 30px;
+  font-size: large;
+}
+.para {
+  margin-top: -20px;
+  font-weight: 500;
+  font-size: small;
+}
